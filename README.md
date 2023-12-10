@@ -1,9 +1,13 @@
 #Fitter
 
+<<<<<<< HEAD
 The Fitter is a highly scalable, free of cost and high performant one stop solution to:
 - Add all your clients.
 - Create appointment list of all the clients.
 - See appointments on calendar.
+=======
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+>>>>>>> f4cc3a615ef3ec95426049e1c4bf7712f3889ca1
 
 # Application Links
 
