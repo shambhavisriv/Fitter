@@ -1,0 +1,53 @@
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  label {
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+  }
+  
+  /* Style for select dropdown */
+  select,
+  input[type="datetime-local"],
+  button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the submit button */
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+
+  @media screen and (max-width: 480px) {
+    form {
+      max-width: 90%;
+    }
+  }
+  

@@ -1,0 +1,55 @@
+body, h1, form, input, button, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  form {
+    margin-bottom: 30px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+
+  @media (max-width: 768px) {
+    input[type="text"] {
+      font-size: 14px;
+    }
+  }
+  
+  

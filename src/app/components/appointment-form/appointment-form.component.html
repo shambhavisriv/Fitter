@@ -1,0 +1,13 @@
+<form [formGroup]="appointmentForm" (ngSubmit)="submitForm()">
+    <div>
+        <label for="clientId">Select Client:</label>
+        <select formControlName="clientId">
+        <option *ngFor="let client of clients" [value]="client.id">{{ client.firstName }} {{ client.lastName }}</option>
+      </select>
+    </div>
+    <div>
+        <label for="dateTime">Select Date and Time:</label>
+        <input type="datetime-local" formControlName="dateTime" />
+    </div>
+    <button type="submit" [disabled]="!appointmentForm.valid">Add Appointment</button>
+</form>

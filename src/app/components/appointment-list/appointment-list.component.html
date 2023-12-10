@@ -1,0 +1,26 @@
+<div class="appointment-list" *ngFor="let client of clients">
+    <div class="client-info">
+        <table>
+            <thead>
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ client.firstName }}</td>
+                <td>{{ client.lastName }}</td>
+                <td>{{ client.location }}</td>
+            </tr>
+        </tbody>
+       
+    </table>
+        <div class="appointments" *ngFor="let appointment of client.appointments">
+            <span>{{ appointment.dateTime | date: 'medium' }}</span>
+            <button (click)="editAppointment(client, appointment)">Edit</button>
+            <button (click)="deleteAppointment(client, appointment.id)">Delete</button>
+        </div>
+    </div>
+</div>

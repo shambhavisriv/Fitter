@@ -1,0 +1,54 @@
+.appointment-list {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.client-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.client-info th,
+.client-info td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 600px) {
+    .client-info table {
+        overflow-x: auto;
+        display: block;
+    }
+
+    .client-info table thead {
+        display: none;
+    }
+
+    .client-info table tbody,
+    .client-info table tr,
+    .client-info table td {
+        display: block;
+        width: 100%;
+    }
+
+    .client-info table td {
+        text-align: right;
+        padding-left: 50%;
+        text-align: right;
+        position: relative;
+    }
+
+    .client-info table td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+}
