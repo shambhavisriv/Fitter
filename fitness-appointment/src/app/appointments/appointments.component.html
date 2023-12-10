@@ -1,0 +1,25 @@
+<div class="container">
+  <h1>Fitness Trainer Appointments</h1>
+  <div class="appointments">
+    <div class="appointment-row" *ngFor="let appointment of appointmentRows; let i = index">
+      <input type="text" [(ngModel)]="appointment.firstName" placeholder="First Name" [disabled]="appointment.isEditing">
+      <input type="text" [(ngModel)]="appointment.lastName" placeholder="Last Name" [disabled]="appointment.isEditing">
+      <input type="text" [(ngModel)]="appointment.location" placeholder="Location" [disabled]="appointment.isEditing">
+      <input type="datetime-local" [(ngModel)]="appointment.appointmentDateTime" placeholder="Appointments" [disabled]="appointment.isEditing">
+    
+      <div class="action-buttons">
+      <div *ngIf="!appointment.isEditing">
+        <button (click)="editAppointment(i)" class="edit-button">Save</button>
+      </div>
+      <div *ngIf="appointment.isEditing">
+        <button (click)="saveAppointment(i)"class="edit-button">Edit</button>
+      </div>
+      <button (click)="deleteAppointment(i)" class="delete-button">Delete</button>
+    </div>
+    </div>
+    <div class="add-appointment">
+      <button (click)="addAppointmentRow()">Add Appointment</button>
+    </div>
+    
+  </div>
+</div>
