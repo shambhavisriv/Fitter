@@ -1,27 +1,73 @@
-# Fitter
+#Fitter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
+The Fitter is a highly scalable, free of cost and high performant one stop solution to:
+- Add all your clients.
+- Create appointment list of all the clients.
+- See appointments on calendar.
 
-## Development server
+# Application Links
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Deployed URL ->[https://the-socials1.herokuapp.com/](https://the-socials1.herokuapp.com/)
+<br>
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Tech Stack
 
-## Build
+<b>Angular</b>
+<b>Typescript</b>
+<b>HTML</b>
+<b>CSS</b>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+<br>
+<b>Additional  Libraries</b>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+  - Syncfusion
+  - Angular Form
 
-## Running end-to-end tests
+ 
+<br>
+<b>Styling</b>: CSS 
+<br>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<b>Deployment</b>: CI/CD setup using GitHub Actions.
 
-## Further help
+# Overall Functionlity
+- Add client details
+- Edit client details
+- Delete client
+- Create appointment
+- See appointment list
+- See all appointment on calendar
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# To run application 
+Clone the application using below command
+`git clone https://github.com/shambhavisriv/Fitter.git`
+
+Open the application in any code editor which supports development
+
+Run the mentioned commands (Install dependencies for server)in terminal of the opened code editor
+
+## Install dependencies for server 
+### `npm install`
+
+## Run the client & server with concurrently
+### `ng serve` or `ng serve --o`
+
+
+### Server runs on http://localhost:4200/
+
+### Video link of the running application - `https://drive.google.com/file/d/12S4PqFf3AgAi8Yno6qRo92BFAt4LRhE2/view?usp=sharing`
+  
+
+### Screenshot
+![](./Screenshot/Fitter-1.png)
+![](./Screenshot/Fitter-2.png)
+![](./Screenshot/Fitter-3.png)
+![](./Screenshot/Fitter-4.png)
+![](./Screenshot/Fitter-5.png)
+![](./Screenshot/Fitter-6.png)
+![](./Screenshot/Fitter-7.png)
+![](./Screenshot/Fitter-8.png)
+![](./Screenshot/Fitter-9.png)
