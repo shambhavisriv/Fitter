@@ -1,4 +1,4 @@
-#Fitter
+###Fitter
 
 
 The Fitter is a highly scalable, free of cost and high performant one stop solution to:
@@ -9,7 +9,7 @@ The Fitter is a highly scalable, free of cost and high performant one stop solut
 
 # Application Links
 
-Deployed URL ->[https://the-socials1.herokuapp.com/](https://the-socials1.herokuapp.com/)
+Deployed URL ->[https://shambhavisriv.github.io/fitter-app/app-appointment-list/](https://shambhavisriv.github.io/fitter-app/app-appointment-list/)
 <br>
 
 
