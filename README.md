@@ -64,12 +64,13 @@ Run the mentioned commands (Install dependencies for server)in terminal of the o
   
 
 ### Screenshot
-![](./Screenshot/Fitter-1.png)
-![](./Screenshot/Fitter-2.png)
-![](./Screenshot/Fitter-3.png)
-![](./Screenshot/Fitter-4.png)
-![](./Screenshot/Fitter-5.png)
-![](./Screenshot/Fitter-6.png)
-![](./Screenshot/Fitter-7.png)
-![](./Screenshot/Fitter-8.png)
-![](./Screenshot/Fitter-9.png)
+
+![](./screenshot/Fitter-1.png)
+![](./screenshot/Fitter-2.png)
+![](./screenshot/Fitter-3.png)
+![](./screenshot/Fitter-4.png)
+![](./screenshot/Fitter-5.png)
+![](./screenshot/Fitter-6.png)
+![](./screenshot/Fitter-7.png)
+![](./screenshot/Fitter-8.png)
+![](./screenshot/Fitter-9.png)
